@@ -1,59 +1,51 @@
- #1. uzdevums
-
-x1 = 5
-x2 = 1.5
-x3 = "hello world"
-print(x1, x2, x3)
-
- #2. uzdevums
+# 2. uzdevums
  
-x = int(input("Ievadi veselu skaitli "))
-y = int(input("Ievadi veselu skaitli "))
-print(x+y)
-print(x-y)
-print(x*y)
-print(x/y)
-
- #3. uzdevums
- 
-x = int(input("Ievadi veselu skaitli "))
-if x > 0:
-    print("x ir pozitīvs")
+zvaigzne = int (input("ievadi garumu "))
+for i in range(0,zvaigzne):
+    print("*"*zvaigzne)
     
-if x < 0:
-    print("x ir negatīvs")
-    
-if x == 0:
-    print("x ir nulle")
-    
- #4. uzdevums
- 
-x = int(input("Ievadi veselu skaitli "))
-y = int(input("Ievadi veselu skaitli "))
+# 1. uzdevums
 
-result = 4 * x ** (y + 3) + 15 *y
-print (result)
+zvaigzne = int (input("ievadi garumu "))
+akmens = int (input("ievadi platumu "))
+for i in range(0,akmens):
+    print("*"*zvaigzne)
 
-result = (5 * y ** x - 144 * x + 2) / ((x + y) ** 2)
-print (result)
+# 3. uzdevums
 
-result = (2 + x - 2 * x * y) / (y / (x + y))
-print (result)
 
- #5. uzdevums
- 
-atzime = int(input("Ievadi atzimi "))
-if 8<atzime<10:
-    print("A")
-elif 6<atzime<9:
-    print("B")
-elif 4<atzime<7:
-    print("C")
-elif 2<atzime<5:
-    print("D")
-elif 0<atzime<3:
-    print("E")
-else: 
-    print("F")
+
+
+
+
+
+
+
+
+
+
+
+
+# 1. uzdevums
+
+import random 
+a = random.random()
+print(a)
+for i in range(0,5):
+    a = random.randint(1,6)
+    print(a)
+    b = random.randint(1,6)
+    print(b)
+    c = a + b
+    print(f"{a} | {b} | {a+b}")
     
-    
+# 2. uzdevums
+
+
+
+
+
+
+
+
+
